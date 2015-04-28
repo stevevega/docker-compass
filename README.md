@@ -12,7 +12,7 @@ Compass is an open-source CSS Authoring Framework.
 
 Replace [SCSS_DIR] with your host scss source directory and [CSS_DIR] with your host css output directory.
 
-For other use cases you can replace `watch` with any of the compass [CLI commands](Compass Command Line Documentation).
+For other use cases you can replace `watch` with any of the compass [CLI commands](http://compass-style.org/help/documentation/command-line/).
 
 ## Adding custom configuration
 
