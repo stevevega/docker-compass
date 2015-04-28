@@ -14,7 +14,7 @@ Replace [SCSS_DIR] with your host scss source directory and [CSS_DIR] with your 
 
 > For other use cases you can replace `watch` with any of the compass [CLI commands] (Compass Command Line Documentation).
 
-## Adding custom config to compass
+## Adding custom configuration
 
 Create a `Dockerfile`
 
