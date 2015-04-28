@@ -14,4 +14,6 @@ VOLUME /output
 
 WORKDIR /input
 
+COPY config.rb /input/config.rb
+
 ENTRYPOINT [ "compass" ]

@@ -21,6 +21,14 @@ Create a `Dockerfile`
     FROM stevevega:compass
     COPY config.rb /input/config.rb
 
+Create a config.rb file
+    
+    css_dir = '../output'
+    sass_dir = '.'
+    [YOUR_CONFIG_HERE]
+
+The first two directives are needed for the input:output default setup.
+
 > [Compass configuration reference](http://compass-style.org/help/documentation/configuration-reference/).
 
 ## Using docker compose
