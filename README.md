@@ -16,12 +16,7 @@ For other use cases you can replace `watch` with any of the compass [CLI command
 
 ## Adding custom configuration
 
-Create a `Dockerfile`
-
-    FROM stevevega:compass
-    COPY config.rb /input/config.rb
-
-Create a config.rb file
+Create a config.rb file in your [SCSS_DIR]
     
     css_dir = '../output'
     sass_dir = '.'
