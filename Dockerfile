@@ -11,6 +11,7 @@ RUN gem install compass -v 1.0.3
 
 VOLUME /input
 VOLUME /output
+VOLUME /images
 
 WORKDIR /input
 
