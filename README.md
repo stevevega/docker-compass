@@ -17,26 +17,24 @@ For other use cases you can replace `watch` with any of the compass [CLI command
 ## Adding custom configuration
 
 Create a config.rb file in your [SCSS_DIR]
-```
-css_dir = '../output'
-sass_dir = '.'
-images_dir = '../images'
 
-[YOUR_CUSTOM_CONFIG_HERE]
-```
+    css_dir = '../output'
+    sass_dir = '.'
+    images_dir = '../images'
+    [YOUR_CUSTOM_CONFIG_HERE]
+
 > [Compass configuration reference](http://compass-style.org/help/documentation/configuration-reference/).
 
 ## Using docker compose
 
 [Docker compose] (https://docs.docker.com/compose/) is also an easy way to run compass with your existing project. For example:
-```
-your-app:
-  build: .
-compass:
-  build: compass
-  command: watch
-  volumes:
-    - compass:/input
-    - public/css:/output
-    - public/img:/images
-```
+
+    your-app:
+      build: .
+    compass:
+      build: compass
+      command: watch
+      volumes:
+        - compass:/input
+        - public/css:/output
+        - public/img:/images
