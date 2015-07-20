@@ -6,8 +6,8 @@ RUN apt-get update && apt-get install -y \
 	make
 
 RUN gem install listen
-RUN gem install sass -v 3.4.13
-RUN gem install compass -v 1.0.3
+RUN gem install sass
+RUN gem install compass
 
 VOLUME /input
 VOLUME /output
