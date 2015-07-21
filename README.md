@@ -2,9 +2,7 @@
 
 Compass is an open-source CSS Authoring Framework built with SASS.
 
-> [Compass official website](http://compass-style.org/)
-
-> [SASS official website](http://sass-lang.com/)
+> [Compass official website](http://compass-style.org/) | [SASS official website](http://sass-lang.com/)
 
 Built using alpine base image (35MB).
 
