@@ -1,13 +1,8 @@
-FROM debian:wheezy
+FROM alpine
 MAINTAINER Steve Vega "steve.vega@hulilabs.com"
 
-RUN apt-get update && apt-get install -y \
-	ruby-dev \
-	make
-
-RUN gem install listen
-RUN gem install sass
-RUN gem install compass
+COPY build.sh /tmp/build.sh
+RUN /tmp/build.sh
 
 VOLUME /input
 VOLUME /output
