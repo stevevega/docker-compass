@@ -1,8 +1,10 @@
 # Compass
 
-Compass is an open-source CSS Authoring Framework.
+Compass is an open-source CSS Authoring Framework built with SASS.
+> [Compass official website](http://compass-style.org/)
+> [SASS official website](http://sass-lang.com/)
 
-> [Official website](http://compass-style.org/)
+Built using alpine base image (35MB).
 
 # How to use this image
 
@@ -32,7 +34,7 @@ Create a config.rb file in your [SCSS_DIR]
     your-app:
       build: .
     compass:
-      build: compass
+      image: stevevega/compass
       command: watch
       volumes:
         - compass:/input
